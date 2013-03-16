@@ -1,0 +1,22 @@
+{
+  "name": "imacros-get-to-first-tab",
+  "version": "1.0.0",
+  "description": "Switches to the first tab in iMacros for firefox and loads all others",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nisaacson/imacros-get-to-first-tab.git"
+  },
+  "keywords": [
+    "imacros"
+  ],
+  "author": "Noah Isaacson",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
