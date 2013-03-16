@@ -1,4 +1,10 @@
 module.exports = function () {
-  var result = gBrowser.mTabContainer.advanceSelectedTab(-1, true);
-  alert(result, 'result')
+  while(true) {
+    var numTabs = gBrowser.tabContainer.childNodes.length
+    var leftResult = gBrowser.mTabContainer.advanceSelectedTab(-1, true);
+    if (numTabs === 1) {
+      break
+    }
+    gBrowser.removeTab(gBrowser.mCurrentTab);
+  }
 }
