@@ -1,6 +1,6 @@
 {
   "name": "imacros-get-to-first-tab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Switches to the first tab in iMacros for firefox and loads all others",
   "main": "index.js",
   "directories": {
